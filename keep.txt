@@ -1,5 +1,0 @@
-StudentsData
-* name
-* index number
-* course
-* level
