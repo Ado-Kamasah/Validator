@@ -1,12 +1,10 @@
 <template>
     
-    <div class="w-100 p-6 shadow-lg h-fit bg-white rounded-md">
-        <h1 class="text-center">Login</h1>
-        <hr class="mt-3">
-        <div class="mt-3">
-            <label for="indexnumber" class="block text-base mb-2">Index number</label>
-            <input type="text" placeholder="Enter index number" class="border w-full text-base px-2 py-1 focus:outline-non focus:ring-0 focus:border-gray-600 bg-gray-600">
-            
-        </div>
+    <div class="bg-white p-6 w-86 rounded-lg shadow-2xl flex flex-col justify-center gap-5">
+        <h1 class="text-gray-600 font-medium">Login Here</h1>
+       <form action="" method="post" class="w-full flex flex-col gap-2.5">
+        <input type="text" class="px-4 py-2 text-gray-800 border border-gray-100 rounded-md bg-gray-300" placeholder="Enter your index number">
+        <button class="p-2 px-4 bg-gray-700 rounded-md text-white font-medium">Validate</button>
+       </form>
     </div>
 </template>
