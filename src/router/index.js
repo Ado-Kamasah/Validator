@@ -12,9 +12,10 @@ const router = createRouter({
       component: Login,
     },
     {
-      path: '/student-data',
+      path: '/student-data/:indexnumber',
       name: 'studentdata',
       component: HomeView,
+      props: true,
     },
     {
       path: '/sign-up',

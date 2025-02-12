@@ -1,4 +1,5 @@
 StudentsData
+* img
 * name
 * index number
 * course
