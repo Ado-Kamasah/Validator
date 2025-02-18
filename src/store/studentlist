@@ -1,0 +1,7 @@
+const studentlist=([
+    {name:'Adjei',IndexNo:'DCR0012',Level:'200',studentimage:'https://img.freepik.com/free-photo/image-adult-african-american-man-holding-notebooks-smiling-studying-courses-standing-pink-background_1258-76952.jpg?t=st=1739879237~exp=1739882837~hmac=6f5d7abefe076b1be9fc193054aa4b6583001811c1c40a47a36d7b25dde74cf2&w=740'},
+    {name:'Kofi',IndexNo:'DCR0013',Level:'200',studentimage:'https://img.freepik.com/free-photo/smiling-woman-with-afro-posing-pink-sweater_273609-31988.jpg?t=st=1739885470~exp=1739889070~hmac=eda2421cd1b9d36d9fdde43a4fdd0913a6c609bbea8c58839bfd8761210b8ee0&w=740'},
+    {name:'Kwame',IndexNo:'DCR0014',Level:'200',studentimage:'https://img.freepik.com/free-photo/happy-beautiful-young-african-woman-student-holding-notebooks_171337-14002.jpg?t=st=1739885505~exp=1739889105~hmac=931dc7d05f308cb1ca2b198209bd6007eed01279b173d10573d81df23e30b9f1&w=740'},
+
+])
+export default studentlist
