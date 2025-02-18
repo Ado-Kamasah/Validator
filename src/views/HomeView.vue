@@ -28,8 +28,13 @@ console.log('filteredStudents:', filteredStudents.value);
             :level="student.level"
             :course="student.course" 
         />
+        <RouterLink to="/">
+                <button class="p-2 px-4 bg-gray-700 rounded-md text-white font-medium w-42 justify-self-center">
+                    Back
+                </button>
+            </RouterLink>
         </div>
-       <div v-else-if="props.indexnumber === 'admin'" class="w-full h-full px-5 grid grid-cols-3 gap-4 py-10">
+       <div v-else-if="props.indexnumber === 'admin'" class="w-full h-full px-5 grid grid-cols-2 gap-4 py-10">
             <StudentCard 
             v-for="student in allStudents" 
             :key="student.indexNumber" 
@@ -39,6 +44,11 @@ console.log('filteredStudents:', filteredStudents.value);
             :level="student.level"
             :course="student.course" 
         />
+        <RouterLink to="/">
+                <button class="p-2 px-4 bg-gray-700 rounded-md text-white font-medium w-42 justify-self-center">
+                    Back
+                </button>
+            </RouterLink>
        </div>
        <div v-else class="flex flex-col w-full h-full justify-center items-center gap-5">
             <h1 class="text-red-500 animate-pulse text-4xl">Please enter a valid index number</h1>
