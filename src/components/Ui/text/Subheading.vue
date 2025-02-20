@@ -2,7 +2,7 @@
 defineProps(['subheading'])
 </script>
 <template>
-   <p>
+   <p class="text-8xl font-bold text-amber-300">
 {{ subheading }}
    </p> 
 </template>
