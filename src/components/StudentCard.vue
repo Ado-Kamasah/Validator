@@ -6,12 +6,13 @@
         <h1 class="text-sm ">{{ name }}</h1>
         <div>
             <p>{{ IndexNo }}</p>
+            <p>{{ hobby }}</p>
+            <p>{{ course }}</p>
             <span>{{ Level }}</span>
         </div>
-        <h4>Information Communication </h4>
     </div>
 </div>
 </template>
 <script setup>
-defineProps(['name','IndexNo','Level','studentimage'])
+defineProps(['name','IndexNo','hobby','course','Level','studentimage'])
 </script>
